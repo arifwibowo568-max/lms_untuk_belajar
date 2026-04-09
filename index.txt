@@ -243,7 +243,7 @@
     // ========================================================
     // PASTIKAN URL WEB APP INI SUDAH BENAR
     // ========================================================
-    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxfCy5y7vekbdBAEkWsjscE1HYHdu6xrH7gUTUll4QHVGLmfirVsRIXC_iFbnBVFmYk/exec"; 
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzbdMWS3DOvkWoTCZBKDyrs3Ws70WssIGXkZSnl4-V9DL47zk5bXFUA6CEl5gLo7NEhoA/exec"; 
 
     let IS_AUTH = sessionStorage.getItem('IS_ADMIN') === 'true';
     let DB = { config: {}, content: {} };
