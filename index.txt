@@ -93,7 +93,7 @@
               <h3 class="text-2xl font-bold text-slate-800 mb-2">Sambutan Kepala Madrasah</h3>
               <div class="line-title mx-0 mb-4"></div>
               <div id="kepsek-sambutan" class="text-slate-600 leading-relaxed text-justify">
-                Selamat datang di website resmi MIS Baiturrahman Gubeng.
+                Selamat datang di website resmi SD Negeri Tanjungharjo IV.
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@
       <div class="container">
         <h4 class="font-bold mb-4 text-xl">MIS Baiturrahman Gubeng</h4>
         <div id="footer-medsos" class="flex justify-center gap-6 mb-4"></div>
-        <p class="text-sm text-slate-400">© 2026 MIS Baiturrahman Official. All rights reserved.</p>
+        <p class="text-sm text-slate-400">© 2026 SD Negeri Tanjungharjo IV Official. All rights reserved.</p>
       </div>
     </footer>
   </div>
@@ -166,7 +166,7 @@
     <div class="admin-layout">
       <aside class="sidebar">
         <div class="text-center mb-6 px-4">
-          <h4 class="font-bold tracking-wider text-xl mt-4">MIS ADMIN</h4>
+          <h4 class="font-bold tracking-wider text-xl mt-4">SD ADMIN</h4>
           <p class="text-xs text-blue-300 mt-1">Content Management System</p>
         </div>
         <div class="sidebar-menu">
@@ -243,7 +243,7 @@
     // ========================================================
     // PASTIKAN URL WEB APP INI SUDAH BENAR
     // ========================================================
-    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxAI1D3xjf2AACtC4OwTBI7yaEy0CXEsH-TTLkYHT1-UWlpaW7t-FOSHAtGW-xa7m4r/exec"; 
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxfCy5y7vekbdBAEkWsjscE1HYHdu6xrH7gUTUll4QHVGLmfirVsRIXC_iFbnBVFmYk/exec"; 
 
     let IS_AUTH = sessionStorage.getItem('IS_ADMIN') === 'true';
     let DB = { config: {}, content: {} };
